@@ -1,8 +1,10 @@
+import React from 'react';
+import Navbar from '../../components/Navbar/Navbar';
+
 export default function Home() {
   return (
     <div>
-      <h1>Home</h1>
-      <p>My first Next.js app</p>
+      <Navbar />
     </div>
   )
 }
